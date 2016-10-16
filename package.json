@@ -2,7 +2,7 @@
   "name": "plantingjs",
   "version": "0.0.1",
   "homepage": "http://plantingjs.org",
-  "bugs": "https://github.com/komitywa/plantingjs/issues",
+  "bugs": "https://github.com/CodeForPoznan/plantingjs/issues",
   "license": "MIT",
   "scripts": {
     "serve": "./node_modules/.bin/gulp serve",
@@ -12,9 +12,9 @@
     "codecov": "./node_modules/.bin/codecov"
   },
   "author": {
-    "name": "Komitywa",
-    "email": "komitywapoznan@gmail.com",
-    "url": "http://komitywa.org"
+    "name": "CodeForPoznan",
+    "email": "hi@codeforpoznan.pl",
+    "url": "http://codeforpoznan.pl"
   },
   "private": true,
   "main": "src/js/main.js",
