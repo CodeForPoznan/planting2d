@@ -16,7 +16,7 @@
     "email": "hi@codeforpoznan.pl",
     "url": "http://codeforpoznan.pl"
   },
-  "private": true,
+  "private": false,
   "main": "src/js/main.js",
   "dependencies": {
     "babel-core": "^5.8.29",
