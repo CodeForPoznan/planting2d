@@ -1,46 +1,32 @@
 PLANTING JS
 ====
 
-Aby możliwe było uruchomienie źródeł zarówno w trybie developerskim, jak i builda na produkcje, wymagane są następujące pakiety:
+[![Join the chat at https://gitter.im/CodeForPoznan/plantingjs](https://badges.gitter.im/CodeForPoznan/plantingjs.svg)](https://gitter.im/CodeForPoznan/plantingjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-    * NodeJS w wersji 0.10 lub nowszej
-    * Manager pakietów node'a NPM najlepiej w wersji 2.6 lub nowszej
+[![Join the chat at https://gitter.im/CodeForPoznan/plantingjs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CodeForPoznan/plantingjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/CodeForPoznan/plantingjs.svg)](https://travis-ci.org/CodeForPoznan/plantingjs)
+[![codecov.io](http://codecov.io/github/CodeForPoznan/plantingjs/coverage.svg?branch=master)](http://codecov.io/github/CodeForPoznan/plantingjs?branch=master)
 
+To build library You need:
+    * NodeJS in version 4.2.4 or newer
+    * npm in version 2.6. or newer
 
-Odpalać wszsytkie komendy w roocie projektu
+All commands need to be executed in root directory of repository.
 
-#### Instalacja wszystkich zaleznosci:
+#### Installation of NodeJS dependencies:
 
 ```shell
 npm install
-bower install
 ```
 
-Windows miewa problemy ze ścieżkami unixowymi, więc warto także doinstalować Gulpa globalnie (na linuxie z sudo)
-
-```shell
-npm install -g gulp
-```
-
-#### Odpalanie produkcyjnego builda:
+#### Build library:
 
 ```shell
 npm run build
-
-lub
-
-gulp build
 ```
-> Generuje zminimalizowana apke w katalogu "dist" gotowa do deployu na produkcje.
 
-
-#### Start servera developerskiego:
+#### Start development server:
 
 ```shell
-npm run server
-
-lub
-
-gulp serve
+npm run serve
 ```
-> Odpala lokalny server developerski na porcie 9000 z automatycznym wykrywaniem zmian i live reloadem.
